@@ -34,3 +34,14 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %py_puresitedir/*
+
+
+%changelog
+* Fri Nov 11 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.13-1mdv2011.0
++ Revision: 729972
+- version update to upstream
+
+* Sun Apr 24 2011 Funda Wang <fwang@mandriva.org> 0.10-1
++ Revision: 658338
+- import pyudev
+
