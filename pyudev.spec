@@ -1,6 +1,6 @@
 Summary:	A libudev binding
 Name:		pyudev
-Version:	0.15
+Version:	0.16.1
 Release:	1
 Source0:	http://pypi.python.org/packages/source/p/pyudev/%{name}-%{version}.tar.gz
 License:	MIT or X11
@@ -26,7 +26,7 @@ python setup.py build
 python setup.py install --root=%{buildroot}
 
 %files
-%dir %{python_sitelib}/pyudev/
-%{python_sitelib}/pyudev/*
-%dir %{python_sitelib}/pyudev-%{version}-py%{py_ver}.egg-info/
-%{python_sitelib}/pyudev-%{version}-py%{py_ver}.egg-info/*
+%dir %{py_puresitedir}/pyudev/
+%{py_puresitedir}/pyudev/*
+%dir %{py_puresitedir}/pyudev-%{version}-py%{py_ver}.egg-info/
+%{py_puresitedir}/pyudev-%{version}-py%{py_ver}.egg-info/*
