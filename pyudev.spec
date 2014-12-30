@@ -1,7 +1,7 @@
 Summary:	A libudev binding
 Name:		pyudev
 Version:	0.16.1
-Release:	3
+Release:	4
 Source0:	http://pypi.python.org/packages/source/p/pyudev/%{name}-%{version}.tar.gz
 License:	MIT or X11
 URL:		http://packages.python.org/pyudev
@@ -11,7 +11,7 @@ BuildRequires:	python-setuptools
 BuildRequires:	python2-setuptools
 Requires:	udev
 Suggests:	python-qt4
-Suggests:	python-gobject
+Suggests:	python-gi
 
 %description
 pyudev is a Python binding to libudev, the hardware management library
@@ -20,7 +20,7 @@ and service found in modern linux systems.
 %package -n python2-pyudev
 Summary:        A libudev binding
 Group:          Development/Python
-Requires:	udev
+Requires:		udev
 
 %description -n python2-pyudev
 pyudev is a Python binding to libudev, the hardware management library
