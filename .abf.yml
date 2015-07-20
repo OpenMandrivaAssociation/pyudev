@@ -1,2 +1,4 @@
+removed_sources:
+  pyudev-0.15.tar.gz: 8763b500bda428600f82c7c5606de7210a20db38
 sources:
-  "pyudev-0.13.tar.gz": b919eb2b32c89027d54ee71a5ce072b6ffdb5b0a
+  pyudev-0.16.1.tar.gz: b36bc5c553ce9b56d32a5e45063a2c88156771c0
