@@ -1,8 +1,8 @@
 Summary:	A libudev binding
 Name:		pyudev
-Version:	0.16.1
-Release:	7
-Source0:	http://pypi.python.org/packages/source/p/pyudev/%{name}-%{version}.tar.gz
+Version:	0.20.0
+Release:	2
+Source0:	https://github.com/pyudev/pyudev/archive/v%{version}.tar.gz
 License:	MIT or X11
 URL:		http://packages.python.org/pyudev
 Group:		Development/Python
@@ -10,7 +10,6 @@ BuildArch:	noarch
 BuildRequires:	python-setuptools
 BuildRequires:	python2-setuptools
 Requires:	udev
-Suggests:	python-qt4
 Suggests:	python-gi
 
 %description
@@ -50,11 +49,11 @@ popd
 %files
 %dir %{py_puresitedir}/pyudev/
 %{py_puresitedir}/pyudev/*
-%dir %{py_puresitedir}/pyudev-%{version}-py%{py_ver}.egg-info/
-%{py_puresitedir}/pyudev-%{version}-py%{py_ver}.egg-info/*
+%dir %{py_puresitedir}/pyudev-*-py%{py_ver}.egg-info/
+%{py_puresitedir}/pyudev-*-py%{py_ver}.egg-info/*
 
 %files -n python2-pyudev
 %dir %{py2_puresitedir}/pyudev/
 %{py2_puresitedir}/pyudev/*
-%dir %{py2_puresitedir}/pyudev-%{version}-py%{py2_ver}.egg-info/
-%{py2_puresitedir}/pyudev-%{version}-py%{py2_ver}.egg-info/*
+%dir %{py2_puresitedir}/pyudev-*-py%{py2_ver}.egg-info/
+%{py2_puresitedir}/pyudev-*-py%{py2_ver}.egg-info/*
