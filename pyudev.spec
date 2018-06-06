@@ -1,13 +1,15 @@
 Summary:	A libudev binding
 Name:		pyudev
 Version:	0.21.0
-Release:	2
+Release:	3
 Source0:	https://github.com/pyudev/pyudev/archive/v%{version}.tar.gz
 License:	MIT or X11
 URL:		http://packages.python.org/pyudev
 Group:		Development/Python
 BuildArch:	noarch
+BuildRequires:	python-pkg-resources
 BuildRequires:	python-setuptools
+BuildRequires:	python2-pkg-resources
 BuildRequires:	python2-setuptools
 Requires:	udev
 Suggests:	python-gi
