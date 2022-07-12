@@ -1,7 +1,7 @@
 Summary:	A libudev binding
 Name:		pyudev
-Version:	0.22
-Release:	2
+Version:	0.23.2
+Release:	1
 Source0:	https://github.com/pyudev/pyudev/archive/v%{version}.tar.gz
 License:	MIT or X11
 URL:		http://packages.python.org/pyudev
