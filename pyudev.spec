@@ -17,19 +17,13 @@ pyudev is a Python binding to libudev, the hardware management library
 and service found in modern linux systems.
 
 %prep
-%setup -q -c
-mv %{name}-%{version} python3
-cp -r python3 python2
+%autosetup -p1
 
 %build
-pushd python3
-python setup.py build
-popd
+%py_build
 
 %install
-pushd python3
-python setup.py install --root=%{buildroot}
-popd
+%py_install
 
 %files
 %dir %{py_puresitedir}/pyudev/
