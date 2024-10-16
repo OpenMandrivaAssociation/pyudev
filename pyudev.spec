@@ -4,7 +4,7 @@ Version:	0.24.3
 Release:	1
 Source0:	https://github.com/pyudev/pyudev/archive/v%{version}.tar.gz
 License:	MIT or X11
-URL:		http://packages.python.org/pyudev
+URL:		https://packages.python.org/pyudev
 Group:		Development/Python
 BuildArch:	noarch
 BuildRequires:	python-pkg-resources
