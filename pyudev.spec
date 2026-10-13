@@ -8,7 +8,6 @@ URL:		https://github.com/pyudev/pyudev
 Group:		Development/Python
 BuildSystem:	python
 BuildArch:	noarch
-BuildRequires:	python-pkg-resources
 BuildRequires:	python%{pyver}dist(setuptools)
 Requires:	udev
 Suggests:	python-gi
